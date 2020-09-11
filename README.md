@@ -22,6 +22,9 @@ Download latest icon pack from https://github.com/google/material-design-icons
  1. Download the repo
  2. Install the packages with `npm i`
  3. Run command at root of project with `grunt`
+ 4. Include SVG in web page and reference icons with 
+ 
+ `<svg><use xlink:href="#m-icon-exit_to_app"></use></svg>`
 
 ## Quick commands
 
