@@ -14,8 +14,10 @@ gulp.task('materialicons', function () {
         .pipe(rename(function (file) {
             var name = file.dirname.split(path.sep);
             // name.push(file.basename);
+            // remove category in text
+            name.splice(0, 1);
             // remove materialiconsoutlined in text
-            name.splice(2, 1);
+            name.splice(1, 1);
             file.basename = name.join('-');
         }))
         .pipe(rename({
@@ -44,8 +46,10 @@ gulp.task('materialiconsoutlined', function () {
         .pipe(rename(function (file) {
             var name = file.dirname.split(path.sep);
             // name.push(file.basename);
+            // remove category in text
+            name.splice(0, 1);
             // remove materialiconsoutlined in text
-            name.splice(2, 1);
+            name.splice(1, 1);
             file.basename = name.join('-');
         }))
         .pipe(rename({
@@ -75,8 +79,10 @@ gulp.task('materialiconsround', function () {
         .pipe(rename(function (file) {
             var name = file.dirname.split(path.sep);
             // name.push(file.basename);
+            // remove category in text
+            name.splice(0, 1);
             // remove materialiconsoutlined in text
-            name.splice(2, 1);
+            name.splice(1, 1);
             file.basename = name.join('-');
         }))
         .pipe(rename({
@@ -105,8 +111,10 @@ gulp.task('materialiconssharp', function () {
         .pipe(rename(function (file) {
             var name = file.dirname.split(path.sep);
             // name.push(file.basename);
+            // remove category in text
+            name.splice(0, 1);
             // remove materialiconsoutlined in text
-            name.splice(2, 1);
+            name.splice(1, 1);
             file.basename = name.join('-');
         }))
         .pipe(rename({
@@ -135,8 +143,10 @@ gulp.task('materialiconstwotone', function () {
         .pipe(rename(function (file) {
             var name = file.dirname.split(path.sep);
             // name.push(file.basename);
+            // remove category in text
+            name.splice(0, 1);
             // remove materialiconsoutlined in text
-            name.splice(2, 1);
+            name.splice(1, 1);
             file.basename = name.join('-');
         }))
         .pipe(rename({
