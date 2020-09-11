@@ -2,6 +2,9 @@
 Generate list of Material Icons to symbols elements for Web usage with Gulp
 **Current Version: 4.0.0**
 
+## No time to read and DIY?
+Pre-generated SVGs are in the `dest` folder for download.
+
 ## Material Icons Types
 https://material.io/resources/icons/
 
