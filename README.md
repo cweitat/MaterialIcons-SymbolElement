@@ -1,5 +1,6 @@
 # Material Icons Symbol Element
 Generate list of Material Icons to symbols elements for Web usage with Gulp
+
 **Current Version: 4.0.0**
 
 ## No time to read and DIY?
